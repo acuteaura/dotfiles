@@ -1,0 +1,5 @@
+[hostname]
+ssh_only = false
+
+[golang]
+disabled = true
