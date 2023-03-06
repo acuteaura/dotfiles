@@ -1,0 +1,10 @@
+[Unit]
+Description=Update SSH Keys every 10 minutes
+
+[Timer]
+OnBootSec=15s
+OnUnitActive=10min
+
+[Install]
+WantedBy=timers.target
+

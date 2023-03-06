@@ -1,0 +1,6 @@
+[Unit]
+Description=Update User SSH Keys
+
+[Service]
+ExecStart=%h/.local/bin/update-ssh-keys acuteaura
+Type=oneshot
