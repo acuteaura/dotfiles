@@ -1,0 +1,10 @@
+[Unit]
+Description=Update User SSH Keys
+ConditionVirtualization=wsl
+
+[Service]
+ExecStart=socat UNIX-LISTEN:%h/.1password/agent.sock,fork EXEC:"/mnt/c/Users/Aurelia/scoop/shims/npiperelay.exe -ei -s //./pipe/openssh-ssh-agent",nofork
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
