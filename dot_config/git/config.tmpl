@@ -2,44 +2,36 @@
 	email = {{ b64dec "Z2l0QGFjdXRlYXVyYS5uZXQ=" }}
 	name = Aurelia
 	signingkey = "{{ b64dec "c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUptakdJc1NPOWpFODV4TlB6enAwQVdmT1NYVkw0cVEzY3VYZUtDdnhlK3E=" }}"
-
 [gpg]
 	format = ssh
-
+{{- if not .isGitpod }}
 [commit]
 	gpgsign = true
-
+{{- end}}
 [init]
 	defaultBranch = main
-
 [annex]
 	thin = true
-
 [pull]
-    rebase = false
-
-{{- if eq .chezmoi.os "darwin" }}
+	rebase = false
+{{- if eq .chezmoi.os "darwin" -}}
 [credential]
 	helper = osxkeychain
 
 [credential "https://github.com"]
 	helper =
 	helper = !/usr/local/bin/op plugin run -- gh auth git-credential
-
-[credential "https://gist.github.com"]
-	helper =
-	helper = !/opt/homebrew/bin/gh auth git-credential
 {{- else }}
 [credential]
 	helper = store
-
+{{- if not .isGitpod }}
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
-
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+{{- end }}
 {{- end }}
 [gpg "ssh"]
 {{- if eq .chezmoi.os "darwin" }}

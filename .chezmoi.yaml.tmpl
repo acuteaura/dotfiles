@@ -1,2 +1,4 @@
 git:
-    autoCommit: false
+  autoCommit: false
+data:
+  isGitpod: {{ env "GITPOD_INSTANCE_ID" | not | not }}

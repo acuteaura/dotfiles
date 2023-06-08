@@ -3,6 +3,8 @@ set -x XDG_DATA_HOME {$HOME}/.local/share
 set -x XDG_STATE_HOME {$HOME}/.local/state
 set -x XDG_CACHE_HOME {$HOME}/.cache
 
+mkdir -p {$XDG_CONFIG_HOME} {$XDG_DATA_HOME} {$XDG_STATE_HOME} {$XDG_CACHE_HOME}
+
 set -x ANDROID_HOME {$XDG_DATA_HOME}/android
 set -x ANSIBLE_HOME {$XDG_DATA_HOME}/ansible
 set -x ASDF_DATA_DIR {$XDG_DATA_HOME}/asdf
