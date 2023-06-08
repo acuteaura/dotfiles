@@ -18,3 +18,7 @@ if test -d $BREW_PREFIX
         set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
     end
 end
+
+if test -e /usr/local/bin/brew
+    alias brew86 /usr/local/bin/brew
+end
