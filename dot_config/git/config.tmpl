@@ -14,10 +14,9 @@
 	thin = true
 [pull]
 	rebase = false
-{{- if eq .chezmoi.os "darwin" -}}
+{{- if eq .chezmoi.os "darwin" }}
 [credential]
 	helper = osxkeychain
-
 [credential "https://github.com"]
 	helper =
 	helper = !/usr/local/bin/op plugin run -- gh auth git-credential

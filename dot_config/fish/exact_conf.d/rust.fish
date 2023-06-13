@@ -1,1 +1,1 @@
-fish_add_path $HOME/.cargo/bin
+fish_add_path {$XDG_DATA_HOME}/cargo/bin
