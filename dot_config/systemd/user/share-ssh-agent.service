@@ -4,7 +4,7 @@ ConditionVirtualization=wsl
 
 [Service]
 ExecStartPre=rm -f %h/.local/state/1password-agent.sock
-ExecStart=socat UNIX-LISTEN:%h/.local/state/1password-agent.sock,fork EXEC:"/mnt/c/Users/Aurelia/scoop/shims/npiperelay.exe -ei -s //./pipe/openssh-ssh-agent",nofork
+ExecStart=socat UNIX-LISTEN:%h/.local/state/1password-agent.sock,fork EXEC:"/mnt/c/Users/Aurelia/AppData/Local/Microsoft/WinGet/Packages/jstarks.npiperelay_Microsoft.Winget.Source_8wekyb3d8bbwe/npiperelay.exe -ei -s //./pipe/openssh-ssh-agent",nofork
 Type=simple
 
 [Install]
