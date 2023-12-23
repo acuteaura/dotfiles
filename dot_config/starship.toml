@@ -1,82 +1,27 @@
-[hostname]
-ssh_only = false
+[battery]
+full_symbol = "• "
+charging_symbol = "⇡ "
+discharging_symbol = "⇣ "
+unknown_symbol = "❓ "
+empty_symbol = "❗ "
 
-[aws]
-symbol = "  "
-
-[conda]
-symbol = " "
-
-[dart]
-symbol = " "
-
-[directory]
-read_only = " "
-
-[docker_context]
-symbol = " "
-disabled = true
-
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
-
-[gcloud]
-disabled = true
-format = '$symbol[$active]($style) '
-
-[git_branch]
-symbol = " "
-
-[golang]
-symbol = " "
-
-[hg_branch]
-symbol = " "
-
-[java]
-symbol = " "
-
-[julia]
-symbol = " "
-
-[memory_usage]
-symbol = " "
-
-[nim]
-symbol = " "
-
-[nix_shell]
-symbol = " "
+[erlang]
+symbol = "ⓔ "
 
 [nodejs]
-symbol = " "
+symbol = "[⬢](bold green) "
 
-[package]
-symbol = " "
+[pulumi]
+symbol = "🧊 "
 
-[perl]
-symbol = " "
+[hostname]
+ssh_only = false
+format = '@[$hostname](bold red) '
+disabled = false
 
-[php]
-symbol = " "
-
-[python]
-symbol = " "
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = " "
-
-[scala]
-symbol = " "
-
-[shlvl]
-symbol = " "
-
-[swift]
-symbol = "ﯣ "
+[username]
+style_user = 'white bold'
+style_root = 'black bold'
+format = '[$user]($style)'
+disabled = false
+show_always = true
