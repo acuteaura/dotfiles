@@ -3,8 +3,9 @@ linux_display_server x11
 font_family IBM Plex Mono
 font_size 14
 tab_bar_style slant
-{{- if eq .chezmoi.os "darwin" }}
-shell /opt/homebrew/bin/fish
+
+{{- with findExecutable "fish" (list (printf "%s/%s" .chezmoi.homeDir ".nix-profile/bin") "/run/current-system/sw/bin/" "/opt/homebrew/bin/" "/usr/local/bin" "/usr/bin" "/bin") }}
+shell {{ . }}
 {{- end }}
 
 background            #1b1d22
