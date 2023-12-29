@@ -3,6 +3,10 @@ set -x XDG_DATA_HOME {$HOME}/.local/share
 set -x XDG_STATE_HOME {$HOME}/.local/state
 set -x XDG_CACHE_HOME {$HOME}/.cache
 
+if test ! -d {$XDG_RUNTIME_DIR}
+    set -Ux XDG_RUNTIME_DIR (mktemp -d)
+end
+
 mkdir -p {$XDG_CONFIG_HOME} {$XDG_DATA_HOME} {$XDG_STATE_HOME} {$XDG_CACHE_HOME}
 
 set -x ANDROID_HOME {$XDG_DATA_HOME}/android
@@ -12,7 +16,8 @@ set -x AWS_SHARED_CREDENTIALS_FILE {$XDG_CONFIG_HOME}/aws/credentials
 set -x AWS_CONFIG_FILE {$XDG_CONFIG_HOME}/aws/config
 set -x HISTFILE {$XDG_STATE_HOME}/bash/history
 set -x CARGO_HOME {$XDG_DATA_HOME}/cargo
-set -x DOCKER_CONFIG {$XDG_CONFIG_HOME}/docker
+# more trouble than worth
+#set -x DOCKER_CONFIG {$XDG_CONFIG_HOME}/docker
 set -x GNUPGHOME {$XDG_DATA_HOME}/gnupg
 set -x GOPATH {$XDG_DATA_HOME}/go
 set -x IPYTHONDIR {$XDG_CONFIG_HOME}/ipython
