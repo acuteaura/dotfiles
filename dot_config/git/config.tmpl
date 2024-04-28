@@ -35,8 +35,10 @@
 [gpg "ssh"]
 {{- if eq .chezmoi.os "darwin" }}
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-{{- else }}
-	program = op-ssh-sign
+{{- else -}}
+{{- with findExecutable "op-ssh-sign" (list "/opt/1Password") }}
+	program = {{ . }}
+{{- end }}
 {{- end }}
 	allowedSignersFile = ~/.ssh/git_signers
 
