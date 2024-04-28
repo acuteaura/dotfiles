@@ -38,7 +38,6 @@
 {{- else -}}
 {{- with findExecutable "op-ssh-sign" (list "/opt/1Password") }}
 	program = {{ . }}
-{{- end }}
+{{- end -}}
 {{- end }}
 	allowedSignersFile = ~/.ssh/git_signers
-
