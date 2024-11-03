@@ -3,7 +3,7 @@ set -x XDG_DATA_HOME {$HOME}/.local/share
 set -x XDG_STATE_HOME {$HOME}/.local/state
 set -x XDG_CACHE_HOME {$HOME}/.cache
 
-if test ! -d {$XDG_RUNTIME_DIR}
+if test ! -d "$XDG_RUNTIME_DIR"
     set -Ux XDG_RUNTIME_DIR (mktemp -d)
 end
 
