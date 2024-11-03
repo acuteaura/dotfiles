@@ -19,7 +19,7 @@
 	helper = osxkeychain
 [credential "https://github.com"]
 	helper =
-	helper = !{{ findOne "op" (list "/opt/homebrew/bin") }} plugin run -- gh auth git-credential
+	helper = !{{ findOneExecutable "op" (list "/opt/homebrew/bin") }} plugin run -- gh auth git-credential
 {{- else }}
 [credential]
 	helper = store
