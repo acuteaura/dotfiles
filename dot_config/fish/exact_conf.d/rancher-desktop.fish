@@ -1,1 +1,1 @@
-fish_add_path ~/.rd/bin
+fish_add_path -g ~/.rd/bin

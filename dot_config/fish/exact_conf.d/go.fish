@@ -1,5 +1,5 @@
 if test -d '/usr/local/go/bin'
-	fish_add_path /usr/local/go/bin
+	fish_add_path -g /usr/local/go/bin
 end
 
 # Darwin path is set via private_Library/LaunchAgents/environment.plist
@@ -8,5 +8,5 @@ if test (uname) != "Darwin"
 end
 
 if test -d {$GOPATH}/bin
-	fish_add_path {$GOPATH}/bin
+	fish_add_path -g {$GOPATH}/bin
 end
