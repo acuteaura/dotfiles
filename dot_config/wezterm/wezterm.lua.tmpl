@@ -1,7 +1,12 @@
 local wezterm = require 'wezterm'
 local config = {}
 
-config.default_prog = { '/Users/aurelia/.nix-profile/bin/fish', '-l' }
+{{ with findOneExecutable (list "fish") (list
+    "/Users/aurelia/.nix-profile/bin/"
+    "/home/aurelia/.nix-profile/bin/")
+-}}
+config.default_prog = { '{{ . }}', '-l' }
+{{- end }}
 
 config.color_scheme = 'Fairyfloss'
 config.hide_tab_bar_if_only_one_tab = true
