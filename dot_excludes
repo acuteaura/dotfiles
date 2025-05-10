@@ -11,6 +11,8 @@ $HOME/.asdf
 $HOME/.cache
 $HOME/.config/Code/Cache
 $HOME/.config/google-chrome
+$HOME/.config/BraveSoftware
+$HOME/.config
 $HOME/.dotnet
 $HOME/.lima
 $HOME/.local/go
