@@ -3,3 +3,9 @@ git:
   autoCommit: true
 data:
   isGitpod: {{ env "GITPOD_INSTANCE_ID" | not | not }}
+encryption: age
+age:
+  identities:
+  - "~/.config/age-keys.txt"
+  recipients:
+  - age14ar27yf8zg4nynw9dv983qu9r9v7f42sjnwf8uhv2nhp9mq0deysz8cyw2
