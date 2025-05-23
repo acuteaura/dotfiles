@@ -13,6 +13,7 @@ $HOME/.config/Code/Cache
 $HOME/.config/google-chrome
 $HOME/.config/BraveSoftware
 $HOME/.config
+$HOME/.local/share/affinity
 $HOME/.dotnet
 $HOME/.lima
 $HOME/.local/go
@@ -22,6 +23,7 @@ $HOME/.local/share/JetBrains
 $HOME/.local/share/sdk
 $HOME/.local/share/Steam
 $HOME/.local/share/Trash
+$HOME/.local/share/bottles
 $HOME/.n
 $HOME/.var/app/*/cache
 $HOME/.var/app/net.lutris.Lutris
@@ -33,3 +35,4 @@ $HOME/Library/Android
 $HOME/Library/Application Support/Steam/steamapps
 $HOME/Seafile
 $HOME/Downloads
+$HOME/.local/share/waydroid
