@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+set -x RESTIC_REPOSITORY /run/media/aurelia/Sun
+set -x RESTIC_PASSWORD (op item get "ev5c3vciuc3ajh4f2cpzj2hxom" --field password --reveal)
+restic $argv
