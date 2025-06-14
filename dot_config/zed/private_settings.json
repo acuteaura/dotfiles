@@ -13,9 +13,13 @@
     "metrics": false
   },
   "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
     "default_model": {
-      "provider": "ollama",
-      "model": "devstral:latest"
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
     },
     "version": "2"
   },
@@ -32,6 +36,11 @@
       "settings": {
         "diagnostics": {
           "ignored": ["unused_binding"]
+        },
+        "nix": {
+          "flake": {
+            "autoArchive": true
+          }
         }
       },
       "initialization_options": {
@@ -45,5 +54,32 @@
     "Nix": {
       "language_servers": ["nil", "!nixd"]
     }
+  },
+  "language_models": {
+    "ollama": {
+      "available_models": [
+        {
+          "name": "devstral",
+          "supports_tools": true,
+          "supports_thinking": true,
+          "max_tokens": 128000,
+          "keep_alive": 360
+        }
+      ]
+    },
+    "openai": {
+      "version": "1",
+      "api_url": "https://openrouter.ai/api/v1",
+      "available_models": [
+        {
+          "display_name": "Devstral (Small, Free)",
+          "name": "mistralai/devstral-small:free",
+          "max_tokens": 131072
+        }
+      ]
+    }
+  },
+  "jsx_tag_auto_close": {
+    "enabled": false
   }
 }
