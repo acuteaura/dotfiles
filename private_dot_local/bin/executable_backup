@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+set RESTIC_BIN (which restic-sun)
+$RESTIC_BIN backup --exclude-file ~/.excludes ~ /etc
+$RESTIC_BIN backup /media/wecontinue
