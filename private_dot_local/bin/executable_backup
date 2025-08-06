@@ -1,4 +1,8 @@
 #!/usr/bin/env fish
+if type -q "pacman"
+  pacman -Qqen > $XDG_STATE_HOME/pkglist.txt
+  pacman -Qqem > $XDG_STATE_HOME/pkglist-aur.txt
+end
+set -x RESTIC_PASSWORD (op item get "ev5c3vciuc3ajh4f2cpzj2hxom" --field password --reveal)
 set RESTIC_BIN (which restic-sun)
-$RESTIC_BIN backup --exclude-file ~/.excludes ~ /etc
-$RESTIC_BIN backup /media/wecontinue
+$RESTIC_BIN backup --exclude-file ~/.excludes ~
