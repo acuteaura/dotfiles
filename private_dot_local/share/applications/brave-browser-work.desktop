@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Brave Work
+
+# Gnome and KDE 3 uses Comment.
+Comment=Access the Internet
+StartupNotify=true
+StartupWMClass=brave-work
+TryExec=brave
+Exec=brave --user-data-dir=/home/aurelia/.config/brave/work --class="brave-work" --ozone-platform=wayland %U
+Terminal=false
+Icon=brave-browser-dev
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ipfs;x-scheme-handler/ipns;
+
