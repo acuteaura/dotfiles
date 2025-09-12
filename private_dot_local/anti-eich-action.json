@@ -1,16 +1,20 @@
 {
-    "BraveRewardsDisabled": true,
-    "BraveWalletDisabled": true,
-    "BraveVPNDisabled": 1,
-    "BraveAIChatEnabled": false,
-    "NewTabPageLocation": "https://kagi.com",
-    "TorDisabled": true,
-    "PasswordManagerEnabled": false,
-    "BraveNewsDisabled": true,
-    "BraveTalkDisabled": true,
-	"BraveWaybackMachineEnabled": false,
-	"BraveP3AEnabled": false,
-	"BraveStatsPingEnabled": false,
-	"BraveWebDiscoveryEnabled": false,
-	"BravePlaylistEnabled": false
+  "BraveRewardsDisabled": true,
+  "BraveWalletDisabled": true,
+  "BraveVPNDisabled": true,
+  "BraveAIChatEnabled": false,
+  "NewTabPageLocation": "https://kagi.com",
+  "TorDisabled": true,
+  "PasswordManagerEnabled": false,
+  "BraveNewsDisabled": true,
+  "BraveTalkDisabled": true,
+  "BraveWaybackMachineEnabled": false,
+  "BraveP3AEnabled": false,
+  "BraveStatsPingEnabled": false,
+  "BraveWebDiscoveryEnabled": false,
+  "BravePlaylistEnabled": false,
+  "ExtensionInstallForcelist": [
+    "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
+    "cdglnehniifkbagbbombnjghhcihifij"
+  ]
 }
