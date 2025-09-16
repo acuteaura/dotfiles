@@ -7,7 +7,7 @@ Comment=Access the Internet
 StartupNotify=true
 StartupWMClass=brave-work
 TryExec=brave
-Exec=brave-nightly --user-data-dir=/home/aurelia/.config/brave/work --class=brave-work --ozone-platform=wayland %U
+Exec=brave-nightly --password-store=gnome-libsecret --user-data-dir=/home/aurelia/.config/brave/work --class=brave-work --ozone-platform=wayland %U
 Terminal=false
 Icon=brave-browser-dev
 Type=Application
