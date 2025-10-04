@@ -8,7 +8,7 @@ if test -d /opt/homebrew
 end
 
 if test -d $BREW_PREFIX
-    eval ({$BREW_PREFIX}/bin/brew shellenv)
+    eval ($BREW_PREFIX/bin/brew shellenv)
 
     if test -d (brew --prefix)"/share/fish/completions"
         set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/completions
