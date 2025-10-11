@@ -1,0 +1,169 @@
+---
+runtime:
+  threads: ~
+release:
+  check: true
+manifest:
+  enable: true
+language: en-US
+theme: dark
+roots:
+  - store: steam
+    path: /home/aurelia/.local/share/Steam
+  - store: heroic
+    path: /home/aurelia/.config/heroic
+  - store: steam
+    path: /media/nm790/steam-library
+redirects: []
+backup:
+  path: /home/aurelia/ludusavi-backup
+  ignoredGames: []
+  filter:
+    excludeStoreScreenshots: false
+    cloud:
+      exclude: false
+      epic: false
+      gog: false
+      origin: false
+      steam: false
+      uplay: false
+    ignoredPaths: []
+    ignoredRegistry: []
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+  retention:
+    full: 1
+    differential: 0
+  format:
+    chosen: simple
+    zip:
+      compression: deflate
+    compression:
+      deflate:
+        level: 6
+      bzip2:
+        level: 6
+      zstd:
+        level: 10
+  onlyConstructive: false
+restore:
+  path: /home/aurelia/ludusavi-backup
+  ignoredGames: []
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+  reverseRedirects: false
+scan:
+  showDeselectedGames: true
+  showUnchangedGames: true
+  showUnscannedGames: true
+cloud:
+  remote: ~
+  path: ludusavi-backup
+  synchronize: true
+apps:
+  rclone:
+    path: /app/bin/rclone
+    arguments: "--fast-list --ignore-checksum"
+customGames:
+  - name: ASTRAL CHAIN
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01007300020FA000"
+    registry: []
+    installDir: []
+  - name: Ace Attorney Investigations Collection
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010005501E68C000"
+    registry: []
+    installDir: []
+  - name: "Apollo Justice: Ace Attorney Trilogy"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010020D01B890000"
+    registry: []
+    installDir: []
+  - name: "Danganronpa: Trigger Happy Havoc Anniversary Edition"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/0100A3301618E000"
+    registry: []
+    installDir: []
+  - name: "Fire Emblem: Three Houses"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010055D009F78000"
+    registry: []
+    installDir: []
+  - name: "Mario & Luigi: Brothership"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01006D0017F7A000"
+    registry: []
+    installDir: []
+  - name: Metroid Dread
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010093801237C000"
+    registry: []
+    installDir: []
+  - name: Pokémon Sword
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/0100ABF008968000"
+    registry: []
+    installDir: []
+  - name: Pokémon Violet
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01008F6008C5E000"
+    registry: []
+    installDir: []
+  - name: Super Mario Bros. Wonder
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010015100B514000"
+    registry: []
+    installDir: []
+  - name: "The Legend of Zelda: Breath of the Wild"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01007EF00011E000"
+    registry: []
+    installDir: []
+  - name: "The Legend of Zelda: Echoes of Wisdom"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01008CF01BAAC000"
+    registry: []
+    installDir: []
+  - name: "The Legend of Zelda: Skyward Sword HD"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01002DA013484000"
+    registry: []
+    installDir: []
+  - name: "The Legend of Zelda: Tears of the Kingdom"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/0100F2C0115B6000"
+    registry: []
+    installDir: []
+  - name: VA-11 HALL-A
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/010086500D3C8000"
+    registry: []
+    installDir: []
+  - name: "Yoshi's Crafted World"
+    integration: extend
+    files:
+      - "<xdgData>/eden/nand/user/save/*/*/01006000040C2000"
+    registry: []
+    installDir: []
