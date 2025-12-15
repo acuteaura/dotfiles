@@ -34,6 +34,6 @@ set -x PARALLEL_HOME {$XDG_CONFIG_HOME}/parallel
 set -x PYTHONSTARTUP {$XDG_DATA_HOME}/pythonrc
 set -x RUSTUP_HOME {$XDG_DATA_HOME}/rustup
 set -x TF_PLUGIN_CACHE_DIR {$XDG_CACHE_HOME}/terraform
-set -x VIBE_HOME {$XDG_CONFIG_HOME/vibe
+set -x VIBE_HOME {$XDG_CONFIG_HOME}/vibe
 
 mkdir -p {$TF_PLUGIN_CACHE_DIR}
