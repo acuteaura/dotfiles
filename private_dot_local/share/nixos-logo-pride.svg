@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-4228.0574 -2992.9838 2303.9999 2304"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="nixos-logo-rainbow-gradient-black-regular-vertical-recommended.svg"
+   width="2304"
+   height="2304"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.10679762"
+     inkscape:cx="-2439.193"
+     inkscape:cy="1942.9272"
+     inkscape:window-width="2567"
+     inkscape:window-height="1368"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs18">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-44584babfef90c4cb32c8ee42b1193ba"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#9e0000"
+         id="stop1" />
+      <stop
+         offset="25%"
+         stop-color="#af0000"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#c10100"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-96af2d924a4fbf5b015c244addc578a8"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#dc5500"
+         id="stop4" />
+      <stop
+         offset="25%"
+         stop-color="#ee5e00"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#ff6705"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-33ff75d118a188d564af252422e7cc92"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#db9917"
+         id="stop7" />
+      <stop
+         offset="25%"
+         stop-color="#eca412"
+         id="stop8" />
+      <stop
+         offset="100%"
+         stop-color="#fdb00b"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-2a0b6b52f041088f95dc76196e6b4d88"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#007f2d"
+         id="stop10" />
+      <stop
+         offset="25%"
+         stop-color="#008d34"
+         id="stop11" />
+      <stop
+         offset="100%"
+         stop-color="#029b3b"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-c6751d2115edfa2506ed6789e247b928"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#0270a8"
+         id="stop13" />
+      <stop
+         offset="25%"
+         stop-color="#007cba"
+         id="stop14" />
+      <stop
+         offset="100%"
+         stop-color="#0088cc"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linear-gradient-6b2d1737e4a2ebfe17f3769056568c22"
+       x1="-320"
+       x2="128"
+       y1="-554.25629"
+       y2="221.7025">
+      <stop
+         offset="0%"
+         stop-color="#452397"
+         id="stop16" />
+      <stop
+         offset="25%"
+         stop-color="#4f2da8"
+         id="stop17" />
+      <stop
+         offset="100%"
+         stop-color="#5a37bb"
+         id="stop18" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g27"
+     transform="translate(0,154.33873)">
+    <polygon
+       fill="url(#linear-gradient-44584babfef90c4cb32c8ee42b1193ba)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="translate(-3396.0574,-1441.0663)"
+       id="polygon18"
+       style="fill:url(#linear-gradient-44584babfef90c4cb32c8ee42b1193ba)" />
+    <polygon
+       fill="url(#linear-gradient-96af2d924a4fbf5b015c244addc578a8)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="rotate(60,-130.0287,-4215.8614)"
+       id="polygon19"
+       style="fill:url(#linear-gradient-96af2d924a4fbf5b015c244addc578a8)" />
+    <polygon
+       fill="url(#linear-gradient-33ff75d118a188d564af252422e7cc92)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="rotate(120,-962.0287,-2255.1467)"
+       id="polygon20"
+       style="fill:url(#linear-gradient-33ff75d118a188d564af252422e7cc92)" />
+    <polygon
+       fill="url(#linear-gradient-2a0b6b52f041088f95dc76196e6b4d88)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="rotate(180,-1378.0287,-1274.7894)"
+       id="polygon21"
+       style="fill:url(#linear-gradient-2a0b6b52f041088f95dc76196e6b4d88)" />
+    <polygon
+       fill="url(#linear-gradient-c6751d2115edfa2506ed6789e247b928)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="rotate(-120,-1794.0287,-294.43207)"
+       id="polygon22"
+       style="fill:url(#linear-gradient-c6751d2115edfa2506ed6789e247b928)" />
+    <polygon
+       fill="url(#linear-gradient-6b2d1737e4a2ebfe17f3769056568c22)"
+       points="-320,332.55376 -128,0 -304,-304.84094 -176,-526.54345 384,443.40501 128,443.40501 -4.0726089e-14,221.7025 -128,443.40501 -256,443.40501 "
+       transform="rotate(-60,-2626.0287,1666.2826)"
+       id="polygon23"
+       style="fill:url(#linear-gradient-6b2d1737e4a2ebfe17f3769056568c22)" />
+  </g>
+</svg>
