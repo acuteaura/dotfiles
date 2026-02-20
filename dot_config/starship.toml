@@ -1,12 +1,22 @@
+
+
 [battery]
 full_symbol = "• "
 charging_symbol = "⇡ "
 discharging_symbol = "⇣ "
 unknown_symbol = "❓ "
 empty_symbol = "❗ "
+disabled = false
 
 [erlang]
 symbol = "ⓔ "
+
+[git_branch]
+ignore_branches = ['master', 'main']
+
+[git_metrics]
+disabled = false
+format = '[+$added]($added_style) [-$deleted]($deleted_style) '
 
 [nodejs]
 symbol = "[⬢](bold green) "
@@ -16,7 +26,7 @@ symbol = "🧊 "
 
 [hostname]
 ssh_only = false
-format = '@[$hostname](bold red) '
+format = '@[$hostname](purple) '
 disabled = false
 
 [username]
@@ -25,3 +35,8 @@ style_root = 'black bold'
 format = '[$user]($style)'
 disabled = false
 show_always = true
+
+[shell]
+disabled = false
+fish_indicator = ""
+zsh_indicator = '\[zsh\]'
